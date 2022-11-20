@@ -31,7 +31,7 @@ public class Box<T extends Fruitavailable> {
   public Boolean compare(Box<?> box) {
     if (box == null) {
       System.out.println("Box can't be null");
-      return null;
+      return false;
     } else {
       return this.weightBox == box.weightBox;
     }
